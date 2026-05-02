@@ -4,7 +4,7 @@
 
 ## 📱 Overview
 
-![App Preview Animation](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![App Preview Animation](https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif)
 
 🌱 **WellnessBuddy** is a modern Android application built using **Kotlin** that helps users build, track, and maintain healthy daily habits with ease and consistency.
 
@@ -71,12 +71,6 @@ git clone https://github.com/LithiraLiyanage/Wellness-Buddy.git
 🌟 The goal of **WellnessBuddy** is to help users build consistent healthy habits through a simple, engaging, and motivating tracking system.
 
 💚 It encourages productivity, discipline, and self-improvement in daily life.
-
----
-
-## 📸 Screenshots
-
-🖼️ *Add your app screenshots here for better presentation*
 
 ---
 
