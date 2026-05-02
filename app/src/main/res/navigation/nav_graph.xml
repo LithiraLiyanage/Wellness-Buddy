@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/habitsFragment">
+
+    <fragment
+        android:id="@+id/habitsFragment"
+        android:name="com.example.wellnessapp.ui.habits.HabitsFragment"
+        android:label="Habits"
+        tools:layout="@layout/fragment_habits" />
+
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.example.wellnessapp.ui.mood.MoodFragment"
+        android:label="Mood"
+        tools:layout="@layout/fragment_mood" />
+
+    <fragment
+        android:id="@+id/moodAnalyticsFragment"
+        android:name="com.example.wellnessapp.ui.mood.MoodAnalyticsFragment"
+        android:label="Mood Analytics"
+        tools:layout="@layout/fragment_mood_analytics" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.wellnessapp.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.wellnessapp.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <!-- Navigation Actions -->
+    <action
+        android:id="@+id/action_moodFragment_to_moodAnalyticsFragment"
+        app:destination="@id/moodAnalyticsFragment" />
+
+    <action
+        android:id="@+id/action_moodAnalyticsFragment_to_moodFragment"
+        app:destination="@id/moodFragment" />
+
+</navigation>
